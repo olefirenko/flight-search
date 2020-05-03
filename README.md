@@ -7,3 +7,4 @@ React+Redux CRUD application written on TypeScript and React Hooks. Can be insta
 - React Router
 - Axios
 - Redux-Saga
+- [Cypress](https://www.cypress.io/) - for end-to-end tests
