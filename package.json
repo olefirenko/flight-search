@@ -19,6 +19,7 @@
     "@types/uuid": "^7.0.3",
     "axios": "^0.19.2",
     "clsx": "^1.1.0",
+    "cypress": "^4.5.0",
     "date-fns": "^2.12.0",
     "immer": "^6.0.3",
     "material-table": "^1.57.2",
@@ -39,8 +40,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "start-test 3000 cypress",
+    "eject": "react-scripts eject",
+    "cypress": "cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -56,5 +58,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@bahmutov/add-typescript-to-cypress": "^2.1.2",
+    "start-server-and-test": "^1.11.0",
+    "webpack": "^4.43.0"
   }
 }
