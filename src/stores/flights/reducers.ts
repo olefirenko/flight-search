@@ -38,7 +38,7 @@ export const flightsStore = (
       case FLIGHTS_FETCH_FAILED:
         draft.error = action.error;
         draft.isFetching = false;
-        draft.fetched = true;
+        draft.fetched = false;
         break;
 
       case ADD_FLIGHT:
