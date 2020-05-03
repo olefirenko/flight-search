@@ -2,8 +2,8 @@ import axios from "axios";
 import { v4 as uuidv4 } from "uuid";
 import { Flight, FlightType } from "../stores/flights/types";
 
-const CHEAP_FLIGHTS_URL = "http://www.mocky.io/v2/5eabf752330000a215dfe14c";
-const BUSINESS_FLIGHTS_URL = "http://www.mocky.io/v2/5eabf84d3300009222dfe15a";
+const CHEAP_FLIGHTS_URL = "//www.mocky.io/v2/5eabf752330000a215dfe14c";
+const BUSINESS_FLIGHTS_URL = "//www.mocky.io/v2/5eabf84d3300009222dfe15a";
 
 type CheapFlightResponse = {
   route: string;
