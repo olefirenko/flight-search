@@ -6,7 +6,7 @@ export const Home: React.FC = () => {
   return (
     <>
       <Typography variant="h4" component="h1" gutterBottom>
-        Flights
+        AWS Amplify Feature Branch
       </Typography>
       <FlightsList></FlightsList>
     </>
